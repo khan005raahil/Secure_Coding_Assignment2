@@ -20,7 +20,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ 'python' ]   # Your project has Python only
+        language: [ 'python', 'javascript' ]   
 
     steps:
     - name: Checkout repository
